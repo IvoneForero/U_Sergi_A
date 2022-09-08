@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ieforero.inventarioAPP.inventarioAPP.InventarioAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.702 s <<< FAILURE! - in com.ieforero.inventarioAPP.inventarioAPP.InventarioAppApplicationTests
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationRunner' defined in com.ieforero.inventarioAPP.InventarioAppApplication: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'applicationRunner' threw exception; nested exception is java.awt.HeadlessException
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'applicationRunner' threw exception; nested exception is java.awt.HeadlessException
+Caused by: java.awt.HeadlessException
+
